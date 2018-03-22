@@ -17,6 +17,7 @@ ul, ol { list-style: none; }
 a { text-decoration: none;}
 a:hover{text-decoration: none;}
 a:link{text-decoration: none}
+
 abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
     border-bottom: 1px dotted;
     cursor: help;

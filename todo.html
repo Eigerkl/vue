@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自定义指令</title>
+    <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/vue.min.js"></script>
+</head>
+<body>
+    <p v-tack class="p">
+        i will now be tacked noto the page
+        <input type="text" v-focus>
+        <input type="text" v-border>
+    </p>
+
+    <script>
+        //自定义全局指令
+        Vue.directive('border',{
+            bind(el){
+                el.style.border='1px red solid'
+            }
+        })
+        new Vue({
+            el:'.p',
+            //自定义局部指令
+            directives:{
+                tack:{
+                    //指令的定义
+                    inserted(el){
+                        el.style.color='red'
+                    }
+                },
+                focus:{
+                    inserted:function (el) {
+                        //聚焦元素
+                        el.focus()
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

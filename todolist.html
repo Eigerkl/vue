@@ -60,6 +60,7 @@
                 <button @click="removeTodo(index)"><i class="layui-icon" style="font-size: 30px; color: #1E9FFF;">&#xe640;</i></button>
             </li>
         </ul>
+        <p class='empty' v-if="todos.length===0">its no content yet</p>
     </div>
 
 </div>
