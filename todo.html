@@ -8,38 +8,28 @@
     <title>自定义指令</title>
     <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="js/vue.min.js"></script>
 </head>
 <body>
-    <p v-tack class="p">
-        i will now be tacked noto the page
-        <input type="text" v-focus>
-        <input type="text" v-border>
-    </p>
+    <div id="app">
+        <ul>
+            <li v-for="product in products">
+{{product.quantity}} {{product.name}}
+            </li>
+        </ul>
+    </div>
 
+
+    <script src="js/vue.min.js"></script>
     <script>
-        //自定义全局指令
-        Vue.directive('border',{
-            bind(el){
-                el.style.border='1px red solid'
-            }
-        })
-        new Vue({
-            el:'.p',
-            //自定义局部指令
-            directives:{
-                tack:{
-                    //指令的定义
-                    inserted(el){
-                        el.style.color='red'
-                    }
-                },
-                focus:{
-                    inserted:function (el) {
-                        //聚焦元素
-                        el.focus()
-                    }
-                }
+        const app=new Vue({
+            el:'#app',
+            data:{
+                products:[]
+            },
+            created (){
+                fetch('https://api.myjson.com/bins/74l63').then(response => response.json()).then(json => {
+                    this.products = json.products
+                })
             }
         })
     </script>
