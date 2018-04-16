@@ -1,0 +1,230 @@
+/* http://localhost:13951/eventmanage/eventmanage/GetCurTrack?eventid=10&eventgroupid=14 */
+{
+    "data": [
+        {
+            "id": 343,
+            "eventId": 10,
+            "eventGroupId": 14,
+            "progroupNum": "nsda1009",
+            "congroupNum": "nsda1006",
+            "roomId": 26,
+            "refereeId": 907,
+            "cyclingDetailId": 213,
+            "isBye": false,
+            "cyclingMatchStatus": 1,
+            "teams": [
+                {
+                    "id": 118,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 343,
+                    "groupNum": "nsda1009",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": [
+                        {
+                            "id": 248,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 343,
+                            "playerId": 37,
+                            "refereeId": 907,
+                            "groupNum": "nsda1009",
+                            "ranking": 0,
+                            "score": 0
+                        },
+                        {
+                            "id": 249,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 343,
+                            "playerId": 38,
+                            "refereeId": 907,
+                            "groupNum": "nsda1009",
+                            "ranking": 0,
+                            "score": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 119,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 343,
+                    "groupNum": "nsda1006",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": [
+                        {
+                            "id": 246,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 343,
+                            "playerId": 32,
+                            "refereeId": 907,
+                            "groupNum": "nsda1006",
+                            "ranking": 0,
+                            "score": 0
+                        },
+                        {
+                            "id": 247,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 343,
+                            "playerId": 33,
+                            "refereeId": 907,
+                            "groupNum": "nsda1006",
+                            "ranking": 0,
+                            "score": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 344,
+            "eventId": 10,
+            "eventGroupId": 14,
+            "progroupNum": "nsda1005",
+            "congroupNum": "nsda1008",
+            "roomId": 27,
+            "refereeId": 908,
+            "cyclingDetailId": 213,
+            "isBye": false,
+            "cyclingMatchStatus": 1,
+            "teams": [
+                {
+                    "id": 120,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 344,
+                    "groupNum": "nsda1005",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": [
+                        {
+                            "id": 250,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 344,
+                            "playerId": 30,
+                            "refereeId": 908,
+                            "groupNum": "nsda1005",
+                            "ranking": 0,
+                            "score": 0
+                        },
+                        {
+                            "id": 251,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 344,
+                            "playerId": 31,
+                            "refereeId": 908,
+                            "groupNum": "nsda1005",
+                            "ranking": 0,
+                            "score": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 121,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 344,
+                    "groupNum": "nsda1008",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": [
+                        {
+                            "id": 252,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 344,
+                            "playerId": 35,
+                            "refereeId": 908,
+                            "groupNum": "nsda1008",
+                            "ranking": 0,
+                            "score": 0
+                        },
+                        {
+                            "id": 253,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 344,
+                            "playerId": 36,
+                            "refereeId": 908,
+                            "groupNum": "nsda1008",
+                            "ranking": 0,
+                            "score": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 345,
+            "eventId": 10,
+            "eventGroupId": 14,
+            "progroupNum": "nsda1003",
+            "congroupNum": "",
+            "roomId": 0,
+            "refereeId": 0,
+            "cyclingDetailId": 213,
+            "isBye": true,
+            "cyclingMatchStatus": 1,
+            "teams": [
+                {
+                    "id": 122,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 345,
+                    "groupNum": "nsda1003",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": [
+                        {
+                            "id": 254,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 345,
+                            "playerId": 25,
+                            "refereeId": 0,
+                            "groupNum": "nsda1003",
+                            "ranking": 0,
+                            "score": 0
+                        },
+                        {
+                            "id": 255,
+                            "eventId": 10,
+                            "eventGroupId": 14,
+                            "cyclingMatchId": 345,
+                            "playerId": 26,
+                            "refereeId": 0,
+                            "groupNum": "nsda1003",
+                            "ranking": 0,
+                            "score": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 123,
+                    "eventId": 10,
+                    "eventGroupId": 14,
+                    "cyclingMatchId": 345,
+                    "groupNum": "",
+                    "totalScore": 0,
+                    "isWin": false,
+                    "winType": 0,
+                    "players": []
+                }
+            ]
+        }
+    ],
+    "flag": true,
+    "msg": ""
+}
